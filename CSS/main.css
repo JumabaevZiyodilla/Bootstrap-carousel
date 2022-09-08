@@ -1,0 +1,33 @@
+.bg-dark{
+    background-color: #212529;
+}
+.view{
+    margin-bottom: 100px;
+}
+.item{
+    padding: 100px 0px;
+}
+.first-title{
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+@media only screen and (min-width: 640px){
+    .first-title{
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .item{
+        flex-direction: row-reverse;
+    }
+    .first-title{
+        margin-top: 7rem;
+    }
+}
+@media only screen and (min-width: 600px){
+    .footer-link{
+        display: inline-block;
+        margin-left: auto;
+    }
+}
